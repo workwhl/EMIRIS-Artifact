@@ -59,30 +59,6 @@ The representative recordings were collected using the experimental platform des
 
 The dominant leakage band is hardware-configuration-specific. It is identified by scanning the target device over 100-2000 MHz, ranking spectral peaks observed during active iris acquisition, and validating their frame- and row-level periodicity. Once identified for a hardware configuration, the center frequency can be reused across users and capture sessions.
 
-## Inspecting a Raw EM Recording
-
-The released `.npy` files can be loaded with NumPy:
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-iq = np.load("samples/sample_01/raw_em.npy")
-
-print("dtype:", iq.dtype)
-print("number of samples:", iq.size)
-
-amplitude = np.abs(iq)
-
-plt.figure(figsize=(10, 3))
-plt.plot(amplitude[:20000])
-plt.xlabel("Sample index")
-plt.ylabel("Magnitude")
-plt.title("Magnitude Envelope of a Representative EM Recording")
-plt.tight_layout()
-plt.show()
-```
-
 The two corresponding PNG files provide a direct comparison between the initial reconstruction and the final EMIRIS output. They are provided for inspection only; the complete reconstruction pipeline is not part of this limited release.
 
 ## Interpreting the Released Outputs
