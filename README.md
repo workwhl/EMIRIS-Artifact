@@ -28,15 +28,10 @@ The repository does **not** include:
 ```text
 EMIRIS-Artifact/
 ├── README.md
-└── samples/
-    ├── sample_01/
-    │   ├── raw_em.npy
-    │   ├── initial_reconstruction.png
-    │   └── final_reconstruction.png
-    └── sample_02/
-        ├── raw_em.npy
-        ├── initial_reconstruction.png
-        └── final_reconstruction.png
+└── sample/
+    ├── raw_em.npy
+    ├── Raw.jpg
+    └── Rec.jpg
 ```
 
 Each sample contains only the following three files:
