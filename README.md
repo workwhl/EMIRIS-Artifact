@@ -37,8 +37,8 @@ EMIRIS-Artifact/
 Each sample contains only the following three files:
 
 - `raw_em.npy`: one-dimensional complex baseband I/Q samples stored as a NumPy `complex64` array.
-- `initial_reconstruction.png`: initial iris matrix produced by EM Emissions-to-Iris Matrix Mapping (EIM).
-- `final_reconstruction.png`: final iris image produced by the complete EIM, Iris Data Enhancement (IDE), and Iris Denoising and Detail Generation (IDG) pipeline.
+- `Raw.jpg`: initial iris matrix produced by EM Emissions-to-Iris Matrix Mapping (EIM).
+- `Rec.jpg`: final iris image produced by the complete EIM, Iris Data Enhancement (IDE), and Iris Denoising and Detail Generation (IDG) pipeline.
 
 ## Experimental Configuration
 
