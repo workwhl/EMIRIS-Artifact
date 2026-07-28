@@ -95,12 +95,3 @@ on Mobile Computing.
 ```
 
 The complete bibliographic information will be updated after publication.
-
-## Contact
-
-For questions about this artifact, please contact:
-
-**Wenhao Li**  
-Department of Computer Science  
-City University of Hong Kong  
-Email: wenhaoli@cityu.edu.hk
